@@ -1,0 +1,28 @@
+footer 
+    background: $dark-gray
+    width: $width-complete
+    padding: $padding
+    display: $display-flex
+    flex-wrap: wrap
+    justify-content: $content 
+    // @include respond-to(smartphone)
+    //     justify-content: space-around
+    .links 
+        background: $dark-orange
+        display: $display-flex
+        flex-wrap: wrap
+        a 
+            flex-grow: 1
+            color: $white
+            text-align: center
+            text-decoration: none
+            padding: 10px
+            &:hover 
+                background: $orange
+    .social 
+        background: $light-orage
+        a 
+            color: $white
+            text-decoration: none
+            padding: 10px
+            display: inline-block

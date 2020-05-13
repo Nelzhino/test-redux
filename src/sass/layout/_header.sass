@@ -1,0 +1,41 @@
+header 
+    background: $dark-gray
+    width: $width-complete
+    padding: $padding
+    //Flex
+    display: $display-flex 
+    justify-content: $content
+    align-items: center
+    flex-flow: $flex-flow
+    @include respond-to(smallscreen)
+        flex-direction: column
+        padding: 0
+    .logo 
+        color: $white
+        font-size: 30px
+        a 
+            color: $white
+            text-decoration: none
+            line-height: 50px
+        img 
+            width: 50px
+            vertical-align: top
+        // @include respond-to(smallscreen)
+        //     margin: 20px 0
+    nav 
+        width: 50%
+        //Flex
+        display: $display-flex 
+        flex-wrap: wrap
+        align-items: center
+        // @include respond-to(smallscreen)
+        //     width: $width-complete
+        a 
+            background: $dark-orange 
+            color: $white
+            text-align: center
+            text-decoration: none
+            padding: 10px
+            // Flex 
+            flex-grow: 1
+

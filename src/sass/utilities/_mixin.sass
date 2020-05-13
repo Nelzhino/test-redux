@@ -1,0 +1,8 @@
+@mixin respond-to($media)
+    @if $media == smallscreen
+        @media screen and ( max-width:  $small-screen) { @content }
+    @else if $media == smartphone
+        @media screen and ( max-width:  $smart-phone) { @content }
+                
+             
+        
